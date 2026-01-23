@@ -43,17 +43,17 @@ The project uses the NIH ChestX-ray14 dataset:
 - **Note:** Dataset is not included in this repository due to size limits.
 
 ## ⚙️ Installation
-- Clone the repository
+1. Clone the repository
 ```bash
 git clone https://github.com/JasreenKaur/ChestXray-MultiDisease.git
 cd MultiDisease-ChestXray
 ```
-- Create and activate a virtual environment
+2. Create and activate a virtual environment
 ```bash
 conda create -n chestxray python=3.9
 conda activate chestxray
 ```
-- Install dependencies
+3. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
@@ -73,9 +73,9 @@ python main.py --mode predict --input_path path/to/image.jpg
 ```
 
 ## 📥 Dataset Preparation
-- Download the dataset from the [NIH ChestX-ray14 dataset page](https://nihcc.app.box.com/v/ChestXray-NIHCC).
-- Extract images into `data/`.
-- Run preprocessing:
+1. Download the dataset from the [NIH ChestX-ray14 dataset page](https://nihcc.app.box.com/v/ChestXray-NIHCC).
+2. Extract images into `data/`.
+3. Run preprocessing:
 ```bash
 python resize_images.py --input_dir data/images --output_dir data/resized
 ```
