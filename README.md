@@ -87,7 +87,7 @@ python resize_images.py --input_dir data/images --output_dir data/resized
 
 ## 📜 License
 This project is licensed under the **MIT License**.
-See the `LICENSE` file for more details.
+See the [LICENSE](https://github.com/JasreenKau/MultiDisease-ChestXray/blob/main/LICENSE) file for more details.
 
 ## 👤 Author
 **Jasreen** [GitHub Profile](https://github.com/JasreenKau)
