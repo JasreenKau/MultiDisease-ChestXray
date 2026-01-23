@@ -58,7 +58,7 @@ python resize_images.py --input_dir data/images --output_dir data/resized
 - Ensure TensorFlow GPU support for faster training.
 - Large files are excluded via .gitignore.
 
-##📜 License
+## 📜 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ## 👤 Author
