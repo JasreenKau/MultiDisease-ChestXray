@@ -1,7 +1,7 @@
 # Multi-Disease Diagnosis from Chest X-rays
 
 This project uses deep learning to perform multi-label classification of chest diseases from X-ray images.
-It is based on the NIH ChestX-ray14 dataset and includes training,and evaluation explainability.
+It is based on the NIH ChestX-ray14 dataset and includes training, evaluation explainability.
 
 ## 📌 Features
 - Multi-label classification of 14 chest diseases.
@@ -32,7 +32,7 @@ The project uses the NIH ChestX-ray14 dataset:
 
 ## ⚙️ Installation
 - Clone the repository
-git clone https://github.com/kimirandhawa/ChestXray-MultiDisease.git
+git clone [https://github.com/JasreenKau/MultiDisease-ChestXray](https://github.com/JasreenKau/MultiDisease-ChestXray)
 cd ChestXray-MultiDisease
 - Create and activate a virtual environment
 conda create -n chestxray python=3.9
